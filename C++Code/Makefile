@@ -6,4 +6,8 @@ begin: functions.h
 	g++  ex7.cpp functions.cpp -o ex7
 	g++  ex8.cpp functions.cpp -O2 -o ex8
 
-
+clean:
+	rm ex3
+	rm ex4
+	rm ex7
+	rm ex8
